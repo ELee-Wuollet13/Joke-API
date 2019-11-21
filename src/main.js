@@ -38,7 +38,6 @@ $(document).ready(function() {
         $('.twopart').hide();
       }
     }
-
     function getGiphy(giphyResponse) {
       let displayGiphy = giphyResponse.data.images.original.url;
       $('.giphy').html(`<img src='${displayGiphy}' alt='Random Laugh Giphy' style='width: 100%'>`);
